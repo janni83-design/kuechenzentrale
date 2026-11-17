@@ -615,7 +615,7 @@ $("#photoInput").addEventListener("change",async e=>{ const f=e.target.files&&e.
 
 
 /* ---------- Teilen & Handy ---------- */
-const APP_URL="https://claude.ai/artifact/VNijU3rm1Y7SPdbQMik7um";
+const APP_URL="https://janni83-design.github.io/K-chenzentrale-/";
 const wa = txt => "https://wa.me/?text="+encodeURIComponent(txt);
 function txtToday(){ const d=DATA.days[DATA.days.findIndex(x=>x.d===todayIso)>=0?DATA.days.findIndex(x=>x.d===todayIso):idx], r=DATA.rec[mealOf(d)];
   return `Küchenzentrale – ${fmtLong(d.d)}\nFrühstück: ${d.f}\nMittag: ${r.n}${r.kids?"\n(Tipp: "+r.kids+")":""}\nAbend: ${d.a}\n\n${APP_URL}`; }
